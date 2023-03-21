@@ -1,0 +1,18 @@
+h1,p {
+    color: yellowgreen;
+    background-color:green;
+}
+
+li{
+    list-style-type: none;
+    font-size: larger;
+
+}
+
+.para2{
+    color: bisque;
+}
+
+#list1{
+    color: brown;
+}
