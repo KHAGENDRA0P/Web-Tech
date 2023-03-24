@@ -1,0 +1,29 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+}
+
+h2{
+    font-family: 'Fasthand', cursive;
+}
+
+.para1{  
+    line-height: 50px;
+    letter-spacing: 10px;
+}
+
+.div1{
+    margin: 100px 100px;
+}
+
+.para2{
+    text-align: justify;
+    text-indent: -50px;
+}
+
+.link{
+    font-weight: bold;
+    text-decoration: none;
+    text-decoration:  double underline;
+    color: black;
+}
