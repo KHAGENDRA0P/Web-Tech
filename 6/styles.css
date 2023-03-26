@@ -1,0 +1,13 @@
+.div1{
+    background-color: blueviolet;
+    /* width: 2500px;
+    height: 300px; */
+}
+.div2{
+    background-color: darkgoldenrod;
+    /* width: 2500px;
+    height: 300px; */
+    min-width: 600px;
+}
+/* img{
+} */
