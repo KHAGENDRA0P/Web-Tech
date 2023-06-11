@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM EXAMPLE 3</title>
+</head>
+<body>  
+    <h2>COMPLEX FORM</h2>
+    <form >
+    <fieldset>
+        <legend>PERSONAL INFORMATION</legend>
+        <label for="name">NAME:</label><input type="text" id="name">
+        
+        <label for="mail">EMAIL:</label><input type="email" id="mail">
+        
+        <label for="ph"></label>PHONE:<input type="tel" id="ph">
+
+        <label for="date">D.O.B</label><input type="date" name="date" id="date">
+
+        <span>CHOOSE GENDER:</span>
+        <label for="rd1">MALE</label>
+        <input type="radio" name="radio" id="rd1">
+        <label for="rd2">FEMALE</label>
+        <input type="radio" name="radio" id="rd2">
+
+        <label for="country">COUNTRY</label><select name="country" id="country">
+            <option value="1">USA</option>
+            <option value="2">INDIA</option>
+            <option value="3">JAPAN</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>ADDRESS</legend>
+        <label for="street">STREET</label><input type="text">
+        <label for="city">CITY</label><input type="text">
+        <label for="state">STATE</label><input type="text">
+        <label for="zipcode">ZIPCODE</label><input type="text">
+    </fieldset>
+    <fieldset>
+        <legend>OTHER INFORMATION</legend>
+        <label for="cmnt">COMMENTS</label><textarea name="comment" id="cmnt" cols="25" rows="5"></textarea>
+        <label for="btn">I AGREE TO THE TERMS OF SERVICE</label>
+        <input type="checkbox" value="">
+    </fieldset>
+    <button type="submit">SUBMIT</button>
+    </form>    
+</body>
+</html>
