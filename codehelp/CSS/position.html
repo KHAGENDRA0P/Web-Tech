@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Property</title>
+    <style>
+        img{
+            margin: 10px
+        }
+        div{
+            border: 1px solid black;
+        }
+        .image2{
+            /* position: relative;
+            top: 50px; */
+            /* position: absolute;
+            top: 200px; */
+        }
+        .image4{
+            position: fixed;
+        }
+        .image1{
+            position: sticky;
+            top: 100px;
+        }
+        .container{
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+     <div class="container">
+        <img src="img1.png" class="image1" alt="">
+        <img src="img2.jpg" class="image2" alt="">
+        <img src="img3.jpg" class="image3" alt="">
+        <img src="img4.jpg" class="image4" alt="">
+     </div>
+</body>
+</html>
