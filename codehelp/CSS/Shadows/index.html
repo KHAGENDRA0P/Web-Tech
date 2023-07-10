@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box and Text Shadows</title>
+    <style>
+        :root{
+            --custom-width:300px;
+        }
+        img{
+            height: 100px;
+        }
+        .container{
+            background-color: thistle;
+            height: 630px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            background-color: blueviolet;
+            width: var(--custom-width);
+            height: 300px;
+            border: 1px solid black;
+            margin: 5px;
+            padding: 5px;
+            /* box-shadow: -10px 15px purple; */
+            /* box-shadow: 10px 15px 50px purple; blurradius */
+            /* box-shadow: 10px 15px 5px 20px; spreadradius */
+            /* box-shadow: inset 10px 15px brown;insideshadow */
+            /* box-shadow: 10px 15px red, 15px 8px green; multipleshadow */
+        }
+        h2{
+            /* text-shadow: 2px 3px 1px gray; */
+            /* text-shadow: yellow 12px 13px 3px; */
+            /* text-shadow:  12px 13px; */
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="mypage_logo.png" alt="">
+            <h2>Welcome to my Page</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore ratione velit, temporibus quidem aliquam eaque expedita nesciunt quas pariatur in nam suscipit consectetur iure laborum.</p>
+        </div>
+    </div>
+</body>
+</html>
