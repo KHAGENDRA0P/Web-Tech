@@ -65,6 +65,9 @@ a{
     width: 75%;
     margin: auto;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
 }
 .item{
     display: flex;
