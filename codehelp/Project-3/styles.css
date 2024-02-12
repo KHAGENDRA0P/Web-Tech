@@ -81,7 +81,7 @@ a{
 .card_footer_container{
     display: flex;
     justify-content: space-between;
-    align-items: end;
+    align-items: flex-end;
     padding: 1.5rem;
 }
 .author_container{
