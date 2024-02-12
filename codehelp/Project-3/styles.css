@@ -8,7 +8,7 @@ body{
     width: 100%;
 }
 .container{
-    max-width: 95vw;
+    max-width: 66vw;
     padding: 2rem 1rem;
     margin: 0 auto;
 }
@@ -34,13 +34,14 @@ a{
 .main_Container{
     display: grid;
     gap: 1.5rem;
-    grid-template-columns: repeat(4,fr);
+    grid-template-columns: repeat(4,1fr);
 }
 .card_Container{
     display: flex;
     flex-direction: column;
     border: 1px solid darkgray;
-    border-radius: 2px;
+    border-radius: 8px;
+    overflow: hidden;
 }
 .card_Container:hover .card_Image{
     transform: scale(1.1);
@@ -80,6 +81,7 @@ a{
 .card_footer_container{
     display: flex;
     justify-content: space-between;
+    align-items: end;
     padding: 1.5rem;
 }
 .author_container{
