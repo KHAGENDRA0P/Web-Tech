@@ -15,3 +15,101 @@ body{
 a{
     text-decoration: none;
 }
+.head_Container{
+    margin-bottom: 3rem;
+}
+.head_title{
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+.head_desc{
+    max-width: 568px;
+    text-align: center;
+    color: gray;
+    margin: 0 auto;
+}
+.main_Container{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4,fr);
+}
+.card_Container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid darkgray;
+    border-radius: 2px;
+}
+.card_Container:hover .card_Image{
+    transform: scale(1.1);
+    transition-duration: 200ms;
+}
+.card_image_container{
+    position: relative;
+    overflow: hidden;
+    height: 14rem;
+}
+.card_Image{
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.card_title_container{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+.card_title{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(25, 23, 23);
+}
+ .card_title_link:hover .card_title{
+    color: rgb(56, 40, 176);
+}
+.card_Desc{
+    color: gray;
+    font-size: 1rem;
+}
+.card_footer_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+.author_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.author_pic{
+    height: 2.5rem;
+    width: 2.5rem;
+    overflow: hidden;
+    border: 1px solid gray;
+    border-radius: 50%;
+    background-color: rgba(205, 204, 204, 0.432);
+}
+.author_info_container{
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    color: rgb(25, 101, 131);
+}
+.date{
+    color: lightslategray;
+}
+.card_tag_contianer{
+    font-size: 0.9rem;
+    border: 1px solid rgb(75, 74, 74);
+    border-radius: 2px;
+    line-height: 1.3rem;
+    padding: 0.25rem 0.5rem;
+}
