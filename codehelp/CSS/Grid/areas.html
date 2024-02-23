@@ -21,21 +21,37 @@
             display: grid;
             gap: 1rem;
             background-color: darkgreen;
+
+            grid-template-areas:
+                "header header header"
+                "sidebar cntnt1 cntnt1"
+                "sidebar cntnt2 cntnt3"
+                "footer footer footer"
+            ;
         }
         .item{
             padding: 1rem;
             border: 2px solid black;
             background-color: rgb(77, 162, 77);
         }
-        #header{}
-        #sidebar{}
-        #cntnt1{}
-        #cntnt2{}
-        #cntnt3{}
-        #header{}
-        #header{}
-        #header{}
-        #header{}
+        #header{
+            grid-area: header;
+        }
+        #sidebar{
+            grid-area: sidebar;
+        }
+        #cntnt1{
+            grid-area: cntnt1;
+        }
+        #cntnt2{
+            grid-area: cntnt2;
+        }
+        #cntnt3{
+            grid-area: cntnt3;
+        }
+        #footer{
+            grid-area: footer;
+        }
     </style>
 </head>
 <body>
