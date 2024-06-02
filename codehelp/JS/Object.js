@@ -8,3 +8,8 @@ let obj = {
 };
 console.log(obj)
 obj.greet();
+
+for (let key in obj){
+  console.log(key," ",obj[key]);
+}
+
