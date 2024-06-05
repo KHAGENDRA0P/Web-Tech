@@ -14,3 +14,5 @@ function hi(){
 console.log("Hi",age);  
 }
 hi();  
+
+// block scope
