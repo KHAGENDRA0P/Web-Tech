@@ -15,4 +15,28 @@ console.log("Hi",age);
 }
 hi();  
 
-// block scope
+// func scope
+function hello(){
+  var name = "Earth";
+ console.log("Hello World!",name); 
+}
+console.log(name);//not accessable outside function
+hello();
+
+//block scope
+console.log(height);
+{
+  var height = 180;
+}
+console.log(height);
+{
+  let weight = 89;
+}
+console.log(weight);
+
+// Temporal dead zone
+console.log(marks);
+console.log("Bruh");
+console.log("Bro");
+const marks = 100;
+console.log(marks);
