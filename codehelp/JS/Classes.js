@@ -1,7 +1,7 @@
 class Human {
   // properties
   age = 13; //by default public
-  #wt = 80;
+  #wt = 80;//private 
   ht = 180;
   
   constructor(newAge,newHt,newWt){
@@ -21,12 +21,15 @@ class Human {
   }
   
   set modifyWt(val){
-    this.wt = val;
+    this.#wt = val;
   }
 }
 
 let obj = new Human(50,190,101);
 console.log(obj.age);
 console.log(obj.fetchWt);
+
+obj.modifyWt = 10;
+console.log(obj.Wt);
 
 obj.walk();
