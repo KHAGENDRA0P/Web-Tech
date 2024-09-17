@@ -509,3 +509,109 @@ body{
         font-size: 2.5rem;
     }
 }
+
+/* Footer Section */
+.footer-container{
+    background-color: var(--background-color);
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+}
+.footer{
+    max-width: 1280px;
+    padding: 1rem 2.5rem;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    padding-right: 2rem;
+}
+.footer-top{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.comp-logo{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: -1rem;
+}
+.logo-svg{
+    width:  3.5rem;
+}
+.logo-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.25rem;
+    color: black;
+}
+.social{
+    display: flex;
+    gap: 0.75rem;
+}
+.social-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.filler-text{
+    font-size: 1rem;
+    color: var(--gray);
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5rem;
+    width: 58%;
+    padding: 0.9rem;
+}
+.footer-grid-heading{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+}
+ul{
+    list-style-type: none;
+}
+.footer-link{
+    color: var(--gray);
+    font-size: .875rem;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.footer-c{
+    color: var(--gray);
+    font-size: 0.875rem;
+    padding-bottom: 2rem;
+    margin-top: 1.5rem;
+    padding-top: 1.2rem;
+    border-top: 1px solid #E5E7EB;
+}
+@media screen and (max-width:1080px) {
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-top{
+        padding-left: 2rem;
+    }
+    .footer-grid{
+        align-items: center;
+    }
+}
+@media screen and (max-width:720px) {
+    .footer-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-top{
+        padding-left: 1rem;
+    }
+}
