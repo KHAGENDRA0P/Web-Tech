@@ -1,11 +1,22 @@
-let name = "jason"
+// let name = "jason"
+// function outerFunction() {
+//     let name = "KHAGENDRA"; //let block scoped variable
+//     function innerFunction() {
+//         let name = "Gopal"; 
+//         console.log(name);
+//     }
+//     innerFunction();
+// }
+
+// outerFunction(); 
+
+//Closure 
 function outerFunction() {
-    let name = "KHAGENDRA"; //let block scoped variable
+    let name = "KHAGENDRA";
     function innerFunction() {
-        let name = "Gopal"; 
         console.log(name);
     }
-    innerFunction();
+    return innerFunction;
 }
-
-outerFunction(); 
+let inner = outerFunction();
+inner();
